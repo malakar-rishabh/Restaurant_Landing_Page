@@ -1,0 +1,1 @@
+This file has not Node module firstly we have to install all dependecies by the command simply write npm i in the terminal and then you are good to go write simple npm start then you are able to see the website landing page.

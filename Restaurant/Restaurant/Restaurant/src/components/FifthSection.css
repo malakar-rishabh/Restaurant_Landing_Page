@@ -1,0 +1,36 @@
+.fifth-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.fifth-heading h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.fifth-content-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.fifth-content {
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fifth-main-container .h3{
+    margin-top: 20px;
+    color: silver;
+    border-bottom: 2px solid wheat;
+}

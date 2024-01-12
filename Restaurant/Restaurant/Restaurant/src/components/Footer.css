@@ -1,0 +1,19 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.icon {
+    font-size: 24px;
+}

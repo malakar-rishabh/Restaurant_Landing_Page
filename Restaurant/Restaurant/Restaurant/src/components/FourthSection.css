@@ -1,0 +1,30 @@
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    flex-direction: row;
+    /* border: 2px solid red; */
+    height: 200vh;
+    flex-wrap: wrap;
+
+}
+.fourth-section__block {
+    text-align: center;
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 400px;
+    
+}
+
+.fourth-section__block p 
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.fourth-section__block img
+{
+    width: 400px;
+    height: 300px;
+}

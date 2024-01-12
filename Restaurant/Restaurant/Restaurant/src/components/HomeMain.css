@@ -1,0 +1,78 @@
+.home-main {
+    position: relative;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/main-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.home-main h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.content{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+
+}
+
+.home-main__content {
+    text-align: center;
+    color: white;
+}
+
+.home-main__content p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.home-main__content button {
+    margin-top: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.View_Menu 
+{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.Reservation
+{
+    background-color: wheat;
+    border: 1px solid wheat;
+}
+
+.home-main__down-arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+}
+
+

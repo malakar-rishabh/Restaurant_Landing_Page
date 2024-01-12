@@ -1,0 +1,54 @@
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    background-color:  rgb(238, 238, 238);
+}
+
+.third-section h1{
+    margin: 0px;
+    margin-top: -10px;
+    padding:30px;
+    font-size: 50px;
+}
+.main-content{
+    margin-top: -20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.main-content p{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.third-section h3 
+{
+    padding-top: 50px;
+    display: inline-block;
+  color: gray;
+  border-bottom: 1px solid black;
+  border-width: 3px;
+  border-color: antiquewhite;
+}
+.third-section button
+{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+    background-color: rgb(252, 214, 143);
+    border: none;
+    margin-bottom: 50px;
+    color: white;
+}

@@ -1,0 +1,34 @@
+.second-section {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 80vh;
+    margin-bottom: 150px;
+    /* height: 70vh; */
+}
+
+.second-section__content  h3
+{
+  display: inline-block;
+  color: gray;
+  border-bottom: 1px solid black;
+  border-width: 3px;
+  border-color: antiquewhite;
+}
+.second-section__content  h1
+{
+  font-size: 50px;
+}
+.second-section__content {
+    margin-top: -110px;
+    max-width: 50%;
+}
+
+.second-section__photo {
+    max-width: 800px;
+    height: 700px;
+    margin-top:-20px;
+
+}
